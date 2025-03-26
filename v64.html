@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let rand = Math.random()
+        let a, b, c;
+        if (rand < 0.33) {
+            a = "osm"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            a = "amazing";
+        }
+        else {
+            a = "superb"
+        }
+
+        //
+
+        rand = Math.random()
+        if (rand < 0.33) {
+            b = "gobi"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            b = "manchoori";
+        }
+        else {
+            b = "swagat";
+        }
+
+        ///
+
+        rand = Math.random()
+        if (rand < 0.33) {
+            c = "kesa he"
+        }
+        else if (rand < 0.66 && rand >= 0.33) {
+            c = "ajao"
+        }
+        else {
+            c = "maja"
+        }
+
+        console.log(`${a} ${b} ${c}`)
+    </script>
+</body>
+
+</html>
